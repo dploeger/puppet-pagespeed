@@ -1,6 +1,6 @@
 {
   "name": "dploeger/pagespeed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "dploeger",
   "summary": "Installs the Apache google pagespeed module repository as needed by puppetlabs/apache",
   "license": "MIT",
@@ -10,6 +10,14 @@
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
     {"name":"puppetlabs-apt","version_requirement":">= 2.3.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "Debian"
+    }
   ],
   "data_provider": null
 }
